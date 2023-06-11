@@ -56,3 +56,8 @@ ul.header {
   border-radius: 4px;
   cursor: pointer;
 }
+
+img {
+  width: 20%;
+  height: auto;
+}

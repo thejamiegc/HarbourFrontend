@@ -5,7 +5,7 @@ by Felicia, Jamie, Isak & Helena
 If you wish to use the Frontend application, these are the pages you will need to change:
 
 In src/routes, you will need to add a jsx-file for your api.
--> Use the "Joke.jsx"-file as template if needed
+-> Use the "-file as template if needed
 
 In src/App.jsx you will need to add the routes to the return method
 

@@ -7,8 +7,7 @@ const Header = ({loggedIn, login, user, logout}) => {
     return (
         <ul className="header">
             <li id="link"><NavLink to={"/"}>Home</NavLink></li>
-            <li id="link"><NavLink to="/about">About</NavLink></li>
-            <li id="link"><NavLink to="/joke">Jokes</NavLink></li>
+            <li id="link"><NavLink to="/Owners">Owners</NavLink></li>
             {!loggedIn ? (<LogIn login={login} />) :
                 (<>
                     <LoggedIn user={user} logout={logout} />
